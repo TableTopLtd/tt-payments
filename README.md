@@ -1,5 +1,5 @@
 # TableTop payments microservice
-[![Build Status](https://travis-ci.org/TableTopLtd/tt-reservations.svg?branch=master)](https://travis-ci.org/TableTopLtd/tt-reservations)
+[![Build Status](https://travis-ci.org/TableTopLtd/tt-payments.svg?branch=master)](https://travis-ci.org/TableTopLtd/tt-payments)
 ```
 
 ## When developing
