@@ -1,4 +1,4 @@
-package si.fri.tabletop.reservations.api.v1;
+package si.fri.tabletop.payments.api.v1;
 
 import com.kumuluz.ee.discovery.annotations.RegisterService;
 
@@ -7,5 +7,5 @@ import javax.ws.rs.core.Application;
 
 @ApplicationPath("/v1")
 @RegisterService
-public class ReservationsApplication extends Application{
+public class PaymentsApplication extends Application{
 }
