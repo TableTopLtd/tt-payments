@@ -21,7 +21,7 @@ To test the service you should go to
 ```
 http://localhost:8086/v1/payments
 ```
-To see a list of all reservations.
+To see a list of all payments.
 
 ```
 http://localhost:8086/v1/payments/1

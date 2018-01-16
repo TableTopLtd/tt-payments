@@ -12,9 +12,9 @@ public class PaymentsDatabase {
         return payments;
     }
 
-    public static Payment getPayment(String reservationId) {
+    public static Payment getPayment(String paymentId) {
         for (Payment payment : payments) {
-            if (payment.getId().equals(reservationId))
+            if (payment.getId().equals(paymentId))
                 return payment;
         }
 
@@ -27,9 +27,9 @@ public class PaymentsDatabase {
         return payment;
     }
 
-    public static void deleteCustomer(String reservationId) {
+    public static void deletePayment(String paymentId) {
         for (Payment payment : payments) {
-            if (payment.getId().equals(reservationId)) {
+            if (payment.getId().equals(paymentId)) {
                 payments.remove(payment);
                 break;
             }
